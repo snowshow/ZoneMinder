@@ -20,7 +20,7 @@ RUN git clone https://github.com/kylejohnson/ZoneMinder.git
 WORKDIR ZoneMinder
 
 # Check out the release-1.27 branch
-RUN git checkout release-1.27
+RUN git checkout release-1.28
 
 # Setup the ZoneMinder build environment
 RUN aclocal && autoheader && automake --force-missing --add-missing && autoconf
